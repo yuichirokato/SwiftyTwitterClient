@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		89126C0D1B80AAEF00F805C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89126C0C1B80AAEF00F805C9 /* AppDelegate.swift */; };
-		89126C0F1B80AAEF00F805C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89126C0E1B80AAEF00F805C9 /* ViewController.swift */; };
+		89126C0F1B80AAEF00F805C9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89126C0E1B80AAEF00F805C9 /* DetailViewController.swift */; };
 		89126C121B80AAEF00F805C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89126C101B80AAEF00F805C9 /* Main.storyboard */; };
 		89126C141B80AAEF00F805C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89126C131B80AAEF00F805C9 /* Images.xcassets */; };
 		89126C171B80AAEF00F805C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89126C151B80AAEF00F805C9 /* LaunchScreen.xib */; };
 		89126C231B80AAEF00F805C9 /* SwiftyTwitterClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89126C221B80AAEF00F805C9 /* SwiftyTwitterClientTests.swift */; };
+		89126C2D1B80AB7B00F805C9 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89126C2C1B80AB7B00F805C9 /* TimelineTableViewController.swift */; };
+		89126C301B80AB9800F805C9 /* TwitterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89126C2F1B80AB9800F805C9 /* TwitterManager.swift */; };
+		89126C331B80B0B000F805C9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89126C321B80B0B000F805C9 /* Extensions.swift */; };
+		89126C361B80BD0100F805C9 /* TimelineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89126C341B80BD0100F805C9 /* TimelineCell.swift */; };
+		89126C371B80BD0100F805C9 /* TimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89126C351B80BD0100F805C9 /* TimelineCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		89126C071B80AAEF00F805C9 /* SwiftyTwitterClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyTwitterClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89126C0B1B80AAEF00F805C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89126C0C1B80AAEF00F805C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89126C0E1B80AAEF00F805C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89126C0E1B80AAEF00F805C9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		89126C111B80AAEF00F805C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89126C131B80AAEF00F805C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89126C161B80AAEF00F805C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		89126C1C1B80AAEF00F805C9 /* SwiftyTwitterClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyTwitterClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89126C211B80AAEF00F805C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89126C221B80AAEF00F805C9 /* SwiftyTwitterClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyTwitterClientTests.swift; sourceTree = "<group>"; };
+		89126C2C1B80AB7B00F805C9 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		89126C2F1B80AB9800F805C9 /* TwitterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterManager.swift; sourceTree = "<group>"; };
+		89126C321B80B0B000F805C9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		89126C341B80BD0100F805C9 /* TimelineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineCell.swift; sourceTree = "<group>"; };
+		89126C351B80BD0100F805C9 /* TimelineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +87,17 @@
 		89126C091B80AAEF00F805C9 /* SwiftyTwitterClient */ = {
 			isa = PBXGroup;
 			children = (
+				89126C311B80B0A400F805C9 /* utils */,
+				89126C2E1B80AB8600F805C9 /* models */,
 				89126C0C1B80AAEF00F805C9 /* AppDelegate.swift */,
-				89126C0E1B80AAEF00F805C9 /* ViewController.swift */,
+				89126C0E1B80AAEF00F805C9 /* DetailViewController.swift */,
+				89126C2C1B80AB7B00F805C9 /* TimelineTableViewController.swift */,
 				89126C101B80AAEF00F805C9 /* Main.storyboard */,
 				89126C131B80AAEF00F805C9 /* Images.xcassets */,
 				89126C151B80AAEF00F805C9 /* LaunchScreen.xib */,
 				89126C0A1B80AAEF00F805C9 /* Supporting Files */,
+				89126C341B80BD0100F805C9 /* TimelineCell.swift */,
+				89126C351B80BD0100F805C9 /* TimelineCell.xib */,
 			);
 			path = SwiftyTwitterClient;
 			sourceTree = "<group>";
@@ -110,6 +125,22 @@
 				89126C211B80AAEF00F805C9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89126C2E1B80AB8600F805C9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				89126C2F1B80AB9800F805C9 /* TwitterManager.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		89126C311B80B0A400F805C9 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				89126C321B80B0B000F805C9 /* Extensions.swift */,
+			);
+			name = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89126C371B80BD0100F805C9 /* TimelineCell.xib in Resources */,
 				89126C121B80AAEF00F805C9 /* Main.storyboard in Resources */,
 				89126C171B80AAEF00F805C9 /* LaunchScreen.xib in Resources */,
 				89126C141B80AAEF00F805C9 /* Images.xcassets in Resources */,
@@ -212,7 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89126C0F1B80AAEF00F805C9 /* ViewController.swift in Sources */,
+				89126C361B80BD0100F805C9 /* TimelineCell.swift in Sources */,
+				89126C331B80B0B000F805C9 /* Extensions.swift in Sources */,
+				89126C0F1B80AAEF00F805C9 /* DetailViewController.swift in Sources */,
+				89126C301B80AB9800F805C9 /* TwitterManager.swift in Sources */,
+				89126C2D1B80AB7B00F805C9 /* TimelineTableViewController.swift in Sources */,
 				89126C0D1B80AAEF00F805C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +445,7 @@
 				89126C281B80AAEF00F805C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89126C291B80AAEF00F805C9 /* Build configuration list for PBXNativeTarget "SwiftyTwitterClientTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +454,7 @@
 				89126C2B1B80AAEF00F805C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
